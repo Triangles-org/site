@@ -8,6 +8,10 @@ img {
     pointer-events: none;
 }
 
+a {
+    -webkit-user-drag: none;
+}
+
 h1, h2, h3, p {
     color: white;
 }
