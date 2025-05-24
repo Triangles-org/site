@@ -8,7 +8,19 @@ h1, h2, p {
 }
 
 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: "Lexend", sans-serif;
+}
+
+h1 {
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+a {
+    color: mediumspringgreen;
+    text-decoration: none;
 }
 
 #main-div {
@@ -16,9 +28,4 @@ p {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-}
-
-#triangles-text {
-    margin-top: 300px;
-    font-size: 50px;
 }

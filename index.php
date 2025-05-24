@@ -2,7 +2,12 @@
 ob_start();
 ?>
 <div id="main-div">
-    <h1 id="triangles-text">Triangles</h1>
+    <h1>Triangles</h1>
+    <p>Developer of the game: Lncvrt</p>
+    <p>Developer of the website: Puppet</p>
+    <h1>Links</h1>
+    <p><a href="/discord">Discord</a></p>
+    <p><a href="/download/">Download</a></p>
 </div>
 <?php
 $content = ob_get_clean();
