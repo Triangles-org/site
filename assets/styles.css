@@ -43,8 +43,12 @@ a {
     transition: 0.2s ease;
 }
 
-.link:hover {
+.link-left:hover {
     transform: scale(1.2) rotate(10deg);
+}
+
+.link-right:hover {
+    transform: scale(1.2) rotate(-10deg);
 }
 
 #main-div {
