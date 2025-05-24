@@ -1,7 +1,9 @@
 <?php
 ob_start();
 ?>
-<p>the html content here!!!!</p>
+<div id="main-div">
+    <h1 id="triangles-text">Triangles</h1>
+</div>
 <?php
 $content = ob_get_clean();
 $title = 'Home';
