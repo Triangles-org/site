@@ -1,6 +1,11 @@
 body {
     background-color: rgb(24, 24, 24);
     font-family: "Press Start 2P", system-ui;
+    user-select: none;
+}
+
+img {
+    pointer-events: none;
 }
 
 h1, h2, p {
