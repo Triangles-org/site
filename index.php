@@ -2,7 +2,7 @@
 ob_start();
 ?>
 <div id="main-div">
-    <h1>Triangles</h1>
+    <h1 style="margin-top: 300px;">Triangles</h1>
     <p>Developer of the game: Lncvrt</p>
     <p>Developer of the website: Puppet</p>
     <h1>Links</h1>
