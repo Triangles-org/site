@@ -6,8 +6,8 @@ ob_start();
     <p>Developer of the game: Lncvrt</p>
     <p>Developers of the website: Puppet & Lncvrt</p>
     <h2 style="margin-top: 100px;">Links</h2>
-    <p><a href="/discord">Discord</a></p>
-    <p><a href="/download/">Download</a></p>
+    <p class="link"><a href="/discord">Discord</a></p>
+    <p class="link"><a href="/download/">Download</a></p>
 </div>
 <?php
 $content = ob_get_clean();

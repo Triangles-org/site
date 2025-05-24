@@ -21,6 +21,7 @@ p {
     margin-bottom: 10px;
     font-family: "Lexend", sans-serif;
 }
+
 h1 {
     font-size: 72px;
 }
@@ -36,6 +37,14 @@ h3 {
 a {
     color: mediumspringgreen;
     text-decoration: none;
+}
+
+.link {
+    transition: 0.2s ease;
+}
+
+.link:hover {
+    transform: scale(1.2) rotate(10deg);
 }
 
 #main-div {
